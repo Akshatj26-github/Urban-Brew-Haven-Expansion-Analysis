@@ -1,13 +1,19 @@
 # Urban Brew Haven Expansion Analysis ☕️
 
-*Crafting Experiences, One Brew at a Time*
+## *Crafting Experiences, One Brew at a Time*
+![image](https://github.com/user-attachments/assets/31844c54-32bc-4f6e-b9a1-bd6e73105416)
 
 ## Objective
 
 The goal of this project is to analyze the sales data of Urban Brew Haven, a company that has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand, sales performance, and rent efficiency.
 
-## ER Diagram
+## Dataset Files
+1. `city.csv` - City demographics and rent data
+2. `customers.csv` - Customer information
+3. `products.csv` - Coffee product details
+4. `sales.csv` - Transaction records
 
+## Entities
 ```mermaid
 
 erDiagram
@@ -69,9 +75,7 @@ INT rating
 }
 
 ```
-
 ## Key Questions
-
 1. **Coffee Consumers Count**
 
 How many people in each city are estimated to consume coffee, given that 25% of the population does?
@@ -88,17 +92,17 @@ How many units of each coffee product have been sold?
 
 What is the average sales amount per customer in each city?
 
-5. **City Population and Coffee Consumers**
+5. **Customer Segmentation by City**
+
+How many unique customers are there in each city who have purchased coffee products?
+
+6. **City Population and Coffee Consumers**
 
 Provide a list of cities along with their populations and estimated coffee consumers.
 
-6. **Top Selling Products by City**
+7. **Top Selling Products by City**
 
 What are the top 3 selling products in each city based on sales volume?
-
-7. **Customer Segmentation by City**
-
-How many unique customers are there in each city who have purchased coffee products?
 
 8. **Average Sale vs Rent**
 
@@ -112,30 +116,31 @@ Sales growth rate: Calculate the percentage growth (or decline) in sales over di
 
 Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated coffee consumer.
 
+
 ## Recommendations
 
 After analyzing the data, the recommended top three cities for new store openings are:
 
 **City 1: Pune**
 
-1. Average rent per customer is very low (₹182).
+1. Average rent per customer is very low (₹294.23).
 
-2. Highest total revenue (₹1.52M).
+2. Highest total revenue (1.26M).
 
-3. Average sales per customer is also high (₹22,400).
+3. Average sales per customer is also highest (₹24197.88).
 
-**City 2: Delhi**
+**City 2: Chennai**
 
-1. Highest estimated coffee consumers at 7.7 million.
+1. Highest estimated coffee consumers at 2.78 million.
 
-2. Highest total number of customers, which is 68.
+2. Average sales per customer is also high (₹22479.05).
 
-3. Average rent per customer is ₹330 (still under ₹500).
+3. Average rent per customer is ₹407.14 (still under ₹500).
 
 **City 3: Jaipur**
 
 1. Highest number of customers, which is 69.
 
-2. Average rent per customer is very low at ₹156.
+2. Average rent per customer is very low at ₹156.52.
 
-3. Average sales per customer is better at ₹11,600.
+3. Average sales per customer is better at ₹11644.2.
