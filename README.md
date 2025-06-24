@@ -1,6 +1,7 @@
 # Urban Brew Haven Expansion Analysis ☕️
 
 *Crafting Experiences, One Brew at a Time*
+![image](https://github.com/user-attachments/assets/31844c54-32bc-4f6e-b9a1-bd6e73105416)
 
 ## Objective
 
