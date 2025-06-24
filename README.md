@@ -13,8 +13,7 @@ The goal of this project is to analyze the sales data of Urban Brew Haven, a com
 3. `products.csv` - Coffee product details
 4. `sales.csv` - Transaction records
 
-## ER Diagram
-
+## Entities
 ```mermaid
 
 erDiagram
